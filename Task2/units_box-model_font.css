@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+.container{
+    border: 2px solid black;
+}
+
+.container img{
+    width: 100%;
+    display: block;
+}
+
+button{
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    background: linear-gradient(to right, orange, yellow, green);
+}
