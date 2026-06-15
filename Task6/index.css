@@ -1,0 +1,26 @@
+.container{
+    height: 100vh;
+    display:flex;
+}
+.left{
+    width: 50%;
+    background-color: #7db4ee;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form{
+    width: 50%;
+    
+}
+.form h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.form p{
+    text-align: center;
+    font-size: 15px;
+    
+}
