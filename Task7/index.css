@@ -1,0 +1,121 @@
+/* DESKTOP */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+padding: 20px 40px;
+}
+.logo{
+    display:inline-block;
+    width: 20%;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul {
+    display: inline-block;
+    width: 55%;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+.user{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    color: skyblue;
+    height: 30px;
+    width: 90px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(233, 244, 249);
+    padding-top: 5px ;
+    padding-right: 5px;
+margin-left: 10vh;
+
+}
+.hero{
+    margin-top: 50px;
+padding: 0px 40px;
+    
+}
+.left{
+    width: 49%;
+/* margin-bottom: 50px; */
+    display: inline-block;
+
+}
+.left h1{
+    font-size: 10vh;
+    margin-bottom: 5px;
+
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(15, 173, 235);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.right{
+    width: 49%;
+    display: inline-block;
+    /* vertical-align: middle; */
+    
+}
+.right img{
+    width: 80%;
+    height: 60vh;
+    
+}
+    
+/* TABLET(768PX -1023PX) */
+/* @media screen (min-width:900px) and (max-width:1023px){
+    .left{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    
+    .right-img{
+        width: 100%;
+    }
+} */
+
+/* PHONE */
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    nav ul{
+        display: none;
+    }
+    .left{
+    /* width: 49%; */
+/* margin-bottom: 50px; */
+    display: inline-block;
+
+}
+.left h1{
+    font-size: 10vh;
+    margin-bottom: 5px;
+
+}
+    /* Example: show/hide or adjust .user, .logo, .right image for small screens
+    .user{ display: inline-block; }
+    */
+}
